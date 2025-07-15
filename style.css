@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #c71585;
+}
+
+.malla {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.anio {
+  background: #ffe4e1;
+  border: 2px solid #f08080;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.semestre h3 {
+  color: #d87093;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  background: #fff;
+  border: 1px solid #ffc0cb;
+  border-radius: 5px;
+  margin: 4px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+li.dependiente {
+  background-color: #ffb6c1;
+  border: 2px solid #d87093;
+}
